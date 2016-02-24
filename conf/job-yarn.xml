@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <property>
+    <name>mapreduce.framework.name</name>
+    <value>yarn</value>
+  </property>
+  <property>
+    <name>mapreduce.job.queuename</name>
+    <value>default</value>
+  </property>
+  <property>
+    <name>mapreduce.map.memory.mb</name>
+    <value>700</value>
+  </property>
+  <property>
+    <name>mapreduce.reduce.memory.mb</name>
+    <value>300</value>
+  </property>
+  <property>
+    <name>mapreduce.map.java.opts</name>
+    <value>-Xmx512m</value>
+  </property>
+  <property>
+    <name>mapreduce.reduce.java.opts</name>
+    <value>-Xmx256m</value>
+  </property>
+  <property>
+    <name>mapreduce.input.fileinputformat.split.maxsize</name>
+    <value>67108864</value>
+  </property>
+  <property>
+    <name>migration.reduce.num</name>
+    <value>100</value>
+  </property>
+  <property>
+   <name>mapreduce.map.speculative</name>
+   <value>false</value>
+  </property>
+
+  <!-- source
+  <property>
+    <name>migration.source.class</name>
+    <value>com.xiaomi.infra.galaxy.fds.source.HTTPSource</value>
+  </property>
+  <property>
+    <name>migration.source.http.url.pattern</name>
+    <value></value>
+  </property>
+  <property>
+    <name>migration.source.http.downloader.list</name>
+    <value></value>
+  </property>
+  -->
+  <!-- target
+  <property>
+    <name>migration.target.class</name>
+    <value>com.xiaomi.infra.galaxy.fds.source.FDSSource</value>
+  </property>
+  <property>
+    <name>migration.target.fds.region.name</name>
+    <value></value>
+  </property>
+  <property>
+    <name>migration.target.fds.bucket.name</name>
+    <value></value>
+  </property>
+  <property>
+    <name>migration.target.fds.access.key</name>
+    <value></value>
+  </property>
+  <property>
+    <name>migration.target.fds.access.secret</name>
+    <value></value>
+  </property>
+  -->
+</configuration>

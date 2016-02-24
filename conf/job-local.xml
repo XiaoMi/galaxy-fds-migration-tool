@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<configuration>
+  <property>
+    <name>mapreduce.framework.name</name>
+    <value>local</value>
+  </property>
+  <property>
+    <name>fs.defaultFS</name>
+    <value>file:///</value>
+  </property>
+  <property>
+    <name>migration.reduce.num</name>
+    <value>1</value>
+  </property>
+  <!-- source
+  <property>
+    <name>migration.source.class</name>
+    <value>com.xiaomi.infra.galaxy.fds.source.HTTPSource</value>
+  </property>
+  <property>
+    <name>migration.source.http.url.pattern</name>
+    <value></value>
+  </property>
+  <property>
+    <name>migration.source.http.downloader.list</name>
+    <value></value>
+  </property>
+  -->
+  <!-- target
+  <property>
+    <name>migration.target.class</name>
+    <value>com.xiaomi.infra.galaxy.fds.source.FDSSource</value>
+  </property>
+  <property>
+    <name>migration.target.fds.region.name</name>
+    <value></value>
+  </property>
+  <property>
+    <name>migration.target.fds.bucket.name</name>
+    <value></value>
+  </property>
+  <property>
+    <name>migration.target.fds.access.key</name>
+    <value></value>
+  </property>
+  <property>
+    <name>migration.target.fds.access.secret</name>
+    <value></value>
+  </property>
+  -->
+</configuration>
